@@ -5,7 +5,7 @@
 
     const fs = require('fs');
 
-    fs.readdirSync(testFolder).forEach(file => {
+    fs.readdirSync(__dirname).forEach(file => {
     console.log(file);
     });
 
